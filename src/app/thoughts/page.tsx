@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: "Thoughts",
 };
 
-
 export default function Thoughts() {
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
@@ -16,7 +15,7 @@ export default function Thoughts() {
           <span className="font-semibold text-xl">Visions</span>
           <span>
             These visions, ideas, and passions{" "}
-            <span className="font-semibold">ignite</span> a fire in me, driving
+            <span className="font-semibold">ignite a fire in me</span>, driving
             me forward with determination and a constant desire to improve.
           </span>
           <ul className="list-inside list-decimal">
@@ -35,6 +34,7 @@ export default function Thoughts() {
           <ul className="list-inside list-decimal">
             <li>How do you transform a nation?</li>
             <li>Is time travel possible?</li>
+            <li>How do you become a good software engineer?</li>
             <li>How do you find love?</li>
           </ul>
         </div>
