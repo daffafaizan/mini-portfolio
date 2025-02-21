@@ -93,7 +93,7 @@ export const projects: Project[] = [
     code: "nubengine",
     title: "Nubengine",
     description:
-      "Medical document search enginer",
+      "Medical document search engine",
     link: NUBENGINE_LINK,
     status: "FINISHED",
     technologies: ["Django", "TailwindCSS", "GCP"],
