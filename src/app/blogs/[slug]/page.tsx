@@ -8,7 +8,7 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
-import Link from "next/link";
+import Navbar from "@/components/navbar";
 
 const initialPostData: Blog = {
   _id: "",
@@ -58,23 +58,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }) {
   }, [isLoading]);
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
-      <div className="flex flex-row flex-wrap gap-4">
-        <Link href="/" className="hover:underline">
-          home
-        </Link>
-        <Link href="/blogs" className="hover:underline">
-          blogs
-        </Link>
-        <Link href="/projects" className="hover:underline">
-          projects
-        </Link>
-        <Link href="/now" className="hover:underline">
-          now
-        </Link>
-        <Link href="/questions" className="hover:underline">
-          questions
-        </Link>
-      </div>
+      <Navbar />
       <div className="w-full flex justify-center">
         {isLoading ? (
           <span>{loadingDots}</span>

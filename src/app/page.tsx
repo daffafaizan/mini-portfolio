@@ -1,25 +1,9 @@
-import Link from "next/link";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
-      <div className="flex flex-row flex-wrap gap-6">
-        <Link href="" className="hover:underline">
-          home
-        </Link>
-        <Link href="/blogs" className="hover:underline">
-          blogs
-        </Link>
-        <Link href="/projects" className="hover:underline">
-          projects
-        </Link>
-        <Link href="/now" className="hover:underline">
-          now
-        </Link>
-        <Link href="/questions" className="hover:underline">
-          questions
-        </Link>
-      </div>
+      <Navbar />
       <div className="max-w-[490px] flex flex-col gap-4">
         <span className="font-semibold text-3xl">Daffa Muhammad Faizan</span>
         <span>
