@@ -2,6 +2,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { Blog } from "@/interfaces/blog"
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
@@ -9,19 +10,8 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Link from "next/link";
 
-interface PostData {
-  title: string;
-  slug: string;
-  summary: string;
-  content: string;
-  aiContent: string;
-  createdAt: string;
-  postAuthor: string;
-  tags: string[];
-  comments: any[] | null;
-}
-
-const initialPostData: PostData = {
+const initialPostData: Blog = {
+  _id: "",
   title: "",
   slug: "",
   summary: "",
@@ -37,7 +27,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }) {
   const getUrl = `${process.env.NEXT_PUBLIC_API_URL}/posts/${params.slug}`;
   const [isLoading, setIsLoading] = useState(true);
   const [loadingDots, setLoadingDots] = useState(".");
-  const [data, setData] = useState<PostData>(initialPostData);
+  const [data, setData] = useState<Blog>(initialPostData);
   const formattedDate = (createdAt: string) => {
     const date = new Date(createdAt).toLocaleDateString("en-US", {
       month: "long",
@@ -118,7 +108,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }) {
                 },
               }}
             >
-              {data.content}
+              {data.aiContent ? data.aiContent : data.content}
             </Markdown>
           </div>
         )}

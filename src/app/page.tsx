@@ -14,7 +14,7 @@ export default function Home() {
           projects
         </Link>
         <Link href="/now" className="hover:underline">
-        now
+          now
         </Link>
         <Link href="/questions" className="hover:underline">
           questions
@@ -82,6 +82,9 @@ export default function Home() {
           , or contact daffamfzn at gmail dot com.
         </span>
       </div>
+      <span>
+        <span>BWMIM</span> (Built With Minimalism In Mind)
+      </span>
     </div>
   );
 }

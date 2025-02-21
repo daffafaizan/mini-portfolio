@@ -1,21 +1,12 @@
 "use client";
 
+import { Blog } from "@/interfaces/blog";
 import Link from "next/link";
 import { useEffect, useState, useCallback } from "react";
 
-interface Post {
-  _id: string;
-  slug: string;
-  title: string;
-  summary: string;
-  createdAt: string;
-  postAuthor: string;
-  tags: string[];
-}
-
 export default function Blogs() {
   const url = `${process.env.NEXT_PUBLIC_API_URL}/posts`;
-  const [posts, setPosts] = useState<Post[]>([]);
+  const [posts, setPosts] = useState<Blog[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [loadingDots, setLoadingDots] = useState(".");
   const getPosts = useCallback(async () => {
@@ -23,7 +14,11 @@ export default function Blogs() {
       .then((response) => response.json())
       .then((data) => {
         setIsLoading(false);
-        setPosts(data);
+        const sortedPosts = data.sort(
+          (a: Blog, b: Blog) =>
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        );
+        setPosts(sortedPosts);
       });
   }, [url]);
   useEffect(() => {
