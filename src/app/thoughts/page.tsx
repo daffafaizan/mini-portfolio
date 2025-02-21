@@ -1,4 +1,10 @@
 import Navbar from "@/components/navbar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Thoughts",
+};
+
 
 export default function Thoughts() {
   return (

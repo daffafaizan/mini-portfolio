@@ -7,9 +7,9 @@ import { projects } from "@/data/projects";
 export default function Projects() {
   const ongoing = projects.filter((project) => project.status == "ONGOING");
   const finished = projects.filter((project) => project.status == "FINISHED");
-  console.log(ongoing);
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
+      <title>Projects</title>
       <Navbar />
       <div className="max-w-[490px] flex flex-col gap-4">
         <span className="font-semibold text-3xl">Projects</span>
