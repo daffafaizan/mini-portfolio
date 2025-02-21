@@ -5,7 +5,7 @@ export default function Now() {
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
       <title>Now</title>
       <Navbar />
-      <div className="max-w-[490px] flex flex-col gap-4">
+      <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">What I&apos; doing now</span>
         <span>I&apos;m just trying to finish my degree man :&#40;</span>
         <span>

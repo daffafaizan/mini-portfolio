@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
       <Navbar />
-      <div className="max-w-[490px] flex flex-col gap-4">
+      <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">Daffa Muhammad Faizan</span>
         <span>
           I&apos;m studying{" "}

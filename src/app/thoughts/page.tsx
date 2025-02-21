@@ -9,7 +9,7 @@ export default function Thoughts() {
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
       <Navbar />
-      <div className="max-w-[490px] flex flex-col gap-4">
+      <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">Thoughts</span>
         <div className="flex flex-col gap-2 mb-4">
           <span className="font-semibold text-xl">Visions</span>
@@ -39,7 +39,7 @@ export default function Thoughts() {
           </ul>
         </div>
         <span>
-          If you have share my vision, have answers, want to share resources, or
+          If you share my vision, have answers, want to share resources, or
           if you&apos;re intersted ;&#41; please shoot me an email at daffamfzn
           at gmail dot com.
         </span>

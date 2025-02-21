@@ -63,7 +63,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }) {
         {isLoading ? (
           <span>{loadingDots}</span>
         ) : (
-          <div className="max-w-[500px] flex flex-col gap-6">
+          <div className="max-w-[500px] flex flex-col gap-6 pb-12">
             <title>{data.title}</title>
             <div className="flex flex-col gap-0">
               <span className="font-semibold text-xl">{data.title}</span>

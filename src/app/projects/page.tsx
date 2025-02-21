@@ -11,7 +11,7 @@ export default function Projects() {
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
       <title>Projects</title>
       <Navbar />
-      <div className="max-w-[490px] flex flex-col gap-4">
+      <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">Projects</span>
         <span className="font-semibold text-xl">Ongoing</span>
         <ul className="list-inside list-disc">
