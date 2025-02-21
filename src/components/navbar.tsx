@@ -15,8 +15,8 @@ export default function Navbar() {
       <Link href="/now" className="hover:underline">
         now
       </Link>
-      <Link href="/questions" className="hover:underline">
-        questions
+      <Link href="/thoughts" className="hover:underline">
+        thoughts
       </Link>
     </div>
   );
