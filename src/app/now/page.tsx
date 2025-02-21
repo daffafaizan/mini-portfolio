@@ -6,7 +6,7 @@ export default function Now() {
       <title>Now</title>
       <Navbar />
       <div className="max-w-[490px] flex flex-col gap-4 pb-12">
-        <span className="font-semibold text-3xl">What I&apos; doing now</span>
+        <span className="font-semibold text-3xl">What I&apos;m doing now</span>
         <span>I&apos;m just trying to finish my degree man :&#40;</span>
         <span>
           My current workload is quite heavy. As a final-year student, my
