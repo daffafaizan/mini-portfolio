@@ -67,7 +67,7 @@ export default function Home() {
         </span>
       </div>
       <span>
-        <span>BWMIM</span> (Built With Minimalism In Mind)
+        <span>BWMIM&trade;</span> (Built With Minimalism In Mind)
       </span>
     </div>
   );
