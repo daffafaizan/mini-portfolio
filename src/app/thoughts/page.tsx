@@ -20,6 +20,7 @@ export default function Thoughts() {
           </span>
           <ul className="list-inside list-decimal">
             <li>Increasing academic competence in Indonesia.</li>
+            <li>Revolutionizing Indonesian education.</li>
             <li>Making a scientific breakthrough.</li>
             <li>Developing a globally useful software or application.</li>
             <li>Putting Indonesia on the map.</li>
