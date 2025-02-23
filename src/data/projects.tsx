@@ -11,7 +11,8 @@ import {
   TODOLIST_API_LINK,
   TODOLIST_LINK,
   VLECTURE_LINK,
-  FOUNDER_MATCH_LINK,
+  TEAMDR_LINK,
+  EUREQA_LINK,
   QUORUM_AI_LINK,
   FOLIO_LINK
 } from "@/data/links";
@@ -159,11 +160,11 @@ export const projects: Project[] = [
   },
   {
     id: 13,
-    code: "founder-match",
-    title: "FounderMatch",
+    code: "teamdr",
+    title: "Teamdr",
     description:
-      "Matching platform for founders",
-    link: FOUNDER_MATCH_LINK,
+      "Team and member matching platform",
+    link: TEAMDR_LINK,
     status: "ONGOING",
     technologies: ["ExpressJS", "NextJS", "Vercel", "PostgreSQL"],
   },
@@ -186,5 +187,15 @@ export const projects: Project[] = [
     link: FOLIO_LINK,
     status: "ONGOING",
     technologies: ["Seismic"],
+  },
+  {
+    id: 16,
+    code: "eureqa",
+    title: "Eureqa",
+    description:
+      "Streamlining research, review, and publishing.",
+    link: EUREQA_LINK,
+    status: "ONGOING",
+    technologies: ["Go", "NextJS"],
   },
 ];
