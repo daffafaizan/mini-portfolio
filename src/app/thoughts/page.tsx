@@ -23,6 +23,7 @@ export default function Thoughts() {
             <li>Revolutionizing Indonesian education.</li>
             <li>Making a scientific breakthrough.</li>
             <li>Developing a globally useful software or application.</li>
+            <li>Increasing cybersecurity awareness.</li>
             <li>Putting Indonesia on the map.</li>
           </ul>
         </div>
@@ -37,12 +38,13 @@ export default function Thoughts() {
             <li>Is time travel possible?</li>
             <li>How do you become a good software engineer?</li>
             <li>How do you find love?</li>
+            <li>How do you get rid of chicken legs? XD</li>
           </ul>
         </div>
         <span>
-          If you share my vision, have answers, want to share resources, or
-          if you&apos;re intersted ;&#41; please shoot me an email at daffamfzn
-          at gmail dot com.
+          If you share my vision, have answers, want to share resources, or if
+          you&apos;re intersted ;&#41; please shoot me an email at daffamfzn at
+          gmail dot com.
         </span>
       </div>
     </div>
