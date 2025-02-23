@@ -193,7 +193,7 @@ export const projects: Project[] = [
     code: "eureqa",
     title: "Eureqa",
     description:
-      "Streamlining research, review, and publishing.",
+      "Streamlining research, review, and publishing",
     link: EUREQA_LINK,
     status: "ONGOING",
     technologies: ["Go", "NextJS"],
