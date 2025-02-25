@@ -67,7 +67,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }) {
             <title>{data.title}</title>
             <div className="flex flex-col gap-0">
               <span className="font-semibold text-xl">{data.title}</span>
-              <span>{formattedDate(data.createdAt)}</span>
+              <span>{data.postAuthor} | {formattedDate(data.createdAt)}</span>
             </div>
             <hr className="my-2" />
             <Markdown
