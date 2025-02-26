@@ -96,6 +96,18 @@ export default function Home() {
         </a>
         .
       </span>
+      <span>
+        Click{" "}
+        <a
+          href="https://daffafaizan-v2.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          here
+        </a>{" "}
+        for the GUI version.
+      </span>
     </div>
   );
 }
