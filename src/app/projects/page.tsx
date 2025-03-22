@@ -7,6 +7,8 @@ import { projects } from "@/data/projects";
 export default function Projects() {
   const ongoing = projects.filter((project) => project.status == "ONGOING");
   const finished = projects.filter((project) => project.status == "FINISHED");
+  const hiatus = projects.filter((project) => project.status == "HIATUS");
+  const delegated = projects.filter((project) => project.status == "DELEGATED");
   return (
     <div className="w-full h-screen flex flex-col items-start p-8 sm:p-12 gap-8">
       <title>Projects</title>
@@ -14,8 +16,42 @@ export default function Projects() {
       <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">Projects</span>
         <span className="font-semibold text-xl">Ongoing</span>
+        {ongoing.length > 0 ? (
+          <ul className="list-inside list-disc">
+            {ongoing.map((project) => (
+              <li key={project.id} className="mb-2">
+                <Link
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-[#0000EE]"
+                >
+                  {project.title} - {project.description}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <ul>No ongoing projects.</ul>
+        )}
+        <span className="font-semibold text-xl">Hiatus</span>
         <ul className="list-inside list-disc">
-          {ongoing.map((project) => (
+          {hiatus.map((project) => (
+            <li key={project.id} className="mb-2">
+              <Link
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-[#0000EE]"
+              >
+                {project.title} - {project.description}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <span className="font-semibold text-xl">Delegated</span>
+        <ul className="list-inside list-disc">
+          {delegated.map((project) => (
             <li key={project.id} className="mb-2">
               <Link
                 href={project.link}
