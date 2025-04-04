@@ -25,6 +25,7 @@ export default function Thoughts() {
             <li>Developing a globally useful software or application.</li>
             <li>Increasing cybersecurity awareness.</li>
             <li>Putting Indonesia on the map.</li>
+            <li>Cirebon&apos;s potential.</li>
           </ul>
         </div>
         <div className="flex flex-col gap-2 mb-4">

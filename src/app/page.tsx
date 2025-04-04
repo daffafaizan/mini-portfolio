@@ -28,6 +28,18 @@ export default function Home() {
           .
         </span>
         <span>
+          Currently a software engineer intern at{" "}
+          <a
+            href="https://clevero.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Clevero
+          </a>
+          .
+        </span>
+        <span>
           I have 2+ years of experience building products + projects, mostly
           solutions to problems that I encounter in my daily life. I&apos;m
           interested in distributed computing, software engineering,

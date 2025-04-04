@@ -15,13 +15,21 @@ export default function Now() {
           anyone! It&apos;s about{" "}
           <span className="font-semibold">Zero-Knowledge Proofs</span>. If
           you&apos;re interested, don&apos;t hesitate to send me an email!
-          Besides that, I&apos;m working on a few exciting projects with some
-          friends. Stay tuned ;&#41;
+          Besides that, I&apos;m working as a software engineer intern @{" "}
+          <a
+            href="https://clevero.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Clevero
+          </a>
+          .
         </span>
       </div>
       <span>
         Last updated on{" "}
-        <span className="font-semibold">Friday, 21 February 2025</span>.
+        <span className="font-semibold">Friday, 4 April 2025</span>.
       </span>
     </div>
   );
