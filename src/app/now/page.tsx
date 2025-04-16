@@ -13,8 +13,8 @@ export default function Now() {
           schedule is pretty packed with finishing my thesis (which I&apos;m
           super interested in, by the way). I&apos;d love to talk about it with
           anyone! It&apos;s about{" "}
-          <span className="font-semibold">Zero-Knowledge Proofs</span>. If
-          you&apos;re interested, don&apos;t hesitate to send me an email!
+          <span className="font-semibold">Zero-Knowledge Proof Protocols</span>.
+          If you&apos;re interested, don&apos;t hesitate to send me an email!
           Besides that, I&apos;m working as a software engineer intern @{" "}
           <a
             href="https://clevero.co"
