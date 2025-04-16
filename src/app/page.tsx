@@ -8,7 +8,7 @@ export default function Home() {
         Daffa Muhammad Faizan
       </span>
       <span className="max-w-[490px] italic">
-        "Life&apos;s too short to be average."
+        &quot;Life&apos;s too short to be average.&quot;
       </span>
       <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span>
