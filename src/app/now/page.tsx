@@ -7,15 +7,11 @@ export default function Now() {
       <Navbar />
       <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span className="font-semibold text-3xl">What I&apos;m doing now</span>
-        <span>I&apos;m just trying to finish my degree man :&#40;</span>
         <span>
-          My current workload is quite heavy. As a final-year student, my
-          schedule is pretty packed with finishing my thesis (which I&apos;m
-          super interested in, by the way). I&apos;d love to talk about it with
-          anyone! It&apos;s about{" "}
-          <span className="font-semibold">Zero-Knowledge Proof Protocols</span>.
-          If you&apos;re interested, don&apos;t hesitate to send me an email!
-          Besides that, I&apos;m working as a software engineer intern @{" "}
+          Glad to announce that I finished my thesis about{" "}
+          <span className="font-semibold">Zero-Knowledge Proof Protocols</span>!
+          Currently, I&apos;m working as a software engineer intern (soon
+          full-time software engineer) @{" "}
           <a
             href="https://clevero.co"
             target="_blank"
@@ -29,7 +25,7 @@ export default function Now() {
       </div>
       <span>
         Last updated on{" "}
-        <span className="font-semibold">Friday, 4 April 2025</span>.
+        <span className="font-semibold">Thursday, 9 July 2025</span>.
       </span>
     </div>
   );
