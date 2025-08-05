@@ -10,8 +10,7 @@ export default function Now() {
         <span>
           Glad to announce that I finished my thesis about{" "}
           <span className="font-semibold">Zero-Knowledge Proof Protocols</span>!
-          Currently, I&apos;m working as a software engineer intern (soon
-          full-time software engineer) @{" "}
+          Currently, I&apos;m working as a full-time software engineer @{" "}
           <a
             href="https://clevero.co"
             target="_blank"
@@ -25,7 +24,7 @@ export default function Now() {
       </div>
       <span>
         Last updated on{" "}
-        <span className="font-semibold">Thursday, 9 July 2025</span>.
+        <span className="font-semibold">Tuesday, 5 August 2025</span>.
       </span>
     </div>
   );

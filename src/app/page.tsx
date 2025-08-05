@@ -30,7 +30,7 @@ export default function Home() {
           >
             University of Indonesia
           </a>{" "}
-          and a software engineer intern at{" "}
+          and a software engineer at{" "}
           <a
             href="https://clevero.co"
             target="_blank"
