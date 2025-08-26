@@ -44,7 +44,7 @@ export default function Thoughts() {
         </div>
         <span>
           If you share my vision, have answers, want to share resources, or if
-          you&apos;re intersted ;&#41; please shoot me an email at daffamfzn at
+          you&apos;re interested ;&#41; please shoot me an email at daffamfzn at
           gmail dot com.
         </span>
       </div>
