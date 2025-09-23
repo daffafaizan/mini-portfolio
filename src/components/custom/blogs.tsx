@@ -15,7 +15,7 @@ export default async function BlogsMap() {
 
   return (
     <ul>
-      {data.map((post: any) => (
+      {data.map((post: Blog) => (
         <li key={post._id} className="grid grid-cols-2 mb-2">
           <span>{formattedDate(post.createdAt)}</span>
           <Link
