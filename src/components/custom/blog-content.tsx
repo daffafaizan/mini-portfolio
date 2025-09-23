@@ -11,7 +11,12 @@ interface BlogContentProps {
 }
 
 export default async function BlogContent({ slug }: BlogContentProps) {
-  const data = await getServerSideProps(slug);
+  const getUrl = `${process.env.NEXT_PUBLIC_API_URL}/posts/${slug}`;
+  const data = await fetch(getUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      return data;
+    });
   const formattedDate = (createdAt: string) => {
     const date = new Date(createdAt).toLocaleDateString("en-US", {
       month: "long",
@@ -56,14 +61,4 @@ export default async function BlogContent({ slug }: BlogContentProps) {
       </Markdown>
     </div>
   );
-}
-
-export async function getServerSideProps(slug: string) {
-  const getUrl = `${process.env.NEXT_PUBLIC_API_URL}/posts/${slug}`;
-  const data = await fetch(getUrl)
-    .then((response) => response.json())
-    .then((data) => {
-      return data;
-    });
-  return data;
 }
