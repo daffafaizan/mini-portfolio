@@ -113,7 +113,7 @@ export default function Home() {
       <span>
         Click{" "}
         <a
-          href="https://daffafaizan-v2.vercel.app/"
+          href="https://daffafaizan-v2.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"

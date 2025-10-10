@@ -35,30 +35,32 @@ export default async function BlogContent({ slug }: BlogContentProps) {
         </span>
       </div>
       <hr className="my-2" />
-      <Markdown
-        remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}
-        components={{
-          code(props) {
-            const { children, className, ...rest } = props as any;
-            const match = /language-(\w+)/.exec(className || "");
-            return match ? (
-              <SyntaxHighlighter
-                {...rest}
-                PreTag="div"
-                language={match[1]}
-                style={dark}
-              >
-                {String(children).replace(/\n$/, "")}
-              </SyntaxHighlighter>
-            ) : (
-              <code {...rest}>{children}</code>
-            );
-          },
-        }}
-      >
-        {data.aiContent ? data.aiContent : data.content}
-      </Markdown>
+      <div className="prose max-w-none">
+        <Markdown
+          remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
+          components={{
+            code(props) {
+              const { children, className, ...rest } = props as any;
+              const match = /language-(\w+)/.exec(className || "");
+              return match ? (
+                <SyntaxHighlighter
+                  {...rest}
+                  PreTag="div"
+                  language={match[1]}
+                  style={dark}
+                >
+                  {String(children).replace(/\n$/, "")}
+                </SyntaxHighlighter>
+              ) : (
+                <code {...rest}>{children}</code>
+              );
+            },
+          }}
+        >
+          {data.aiContent ? data.aiContent : data.content}
+        </Markdown>
+      </div>
     </div>
   );
 }
