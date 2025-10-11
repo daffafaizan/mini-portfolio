@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
@@ -17,6 +16,7 @@ export default async function BlogContent({ slug }: BlogContentProps) {
     .then((data) => {
       return data;
     });
+
   const formattedDate = (createdAt: string) => {
     const date = new Date(createdAt).toLocaleDateString("en-US", {
       month: "long",
@@ -25,8 +25,9 @@ export default async function BlogContent({ slug }: BlogContentProps) {
     });
     return date;
   };
+
   return (
-    <div className="max-w-[500px] flex flex-col gap-6 pb-12">
+    <div className="max-w-[500px] flex flex-col gap-6 pb-12 overflow-x-scroll">
       <title>{data.title}</title>
       <div className="flex flex-col gap-0">
         <span className="font-semibold text-xl">{data.title}</span>
@@ -35,7 +36,7 @@ export default async function BlogContent({ slug }: BlogContentProps) {
         </span>
       </div>
       <hr className="my-2" />
-      <div className="prose max-w-none">
+      <div className="prose max-w-none prose-pre:p-0 prose-pre:m-0">
         <Markdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeRaw]}
@@ -44,16 +45,31 @@ export default async function BlogContent({ slug }: BlogContentProps) {
               const { children, className, ...rest } = props as any;
               const match = /language-(\w+)/.exec(className || "");
               return match ? (
-                <SyntaxHighlighter
-                  {...rest}
-                  PreTag="div"
-                  language={match[1]}
-                  style={dark}
-                >
-                  {String(children).replace(/\n$/, "")}
-                </SyntaxHighlighter>
+                <div className="overflow-x-auto max-w-full">
+                  <SyntaxHighlighter
+                    {...rest}
+                    PreTag="div"
+                    language={match[1]}
+                    style={dark}
+                    customStyle={{
+                      margin: 0,
+                      borderRadius: "0.375rem",
+                      maxWidth: "100%",
+                    }}
+                    codeTagProps={{
+                      style: {
+                        fontSize: "0.875rem",
+                        lineHeight: "1.5",
+                      },
+                    }}
+                  >
+                    {String(children).replace(/\n$/, "")}
+                  </SyntaxHighlighter>
+                </div>
               ) : (
-                <code {...rest}>{children}</code>
+                <code {...rest} className="break-words">
+                  {children}
+                </code>
               );
             },
           }}
