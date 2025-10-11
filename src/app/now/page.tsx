@@ -22,7 +22,7 @@ export default function Now() {
           .
         </span>
       </div>
-      <span>
+      <span className="text-sm">
         Last updated on{" "}
         <span className="font-semibold">Friday, 10 October 2025</span>.
       </span>
