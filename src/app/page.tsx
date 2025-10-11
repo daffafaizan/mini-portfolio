@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import { PORTFOLIO_V2_LINK } from "@/data/links";
 
 export default function Home() {
   return (
@@ -113,7 +114,7 @@ export default function Home() {
       <span>
         Click{" "}
         <a
-          href="https://daffafaizan-v2.netlify.app/"
+          href={PORTFOLIO_V2_LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
