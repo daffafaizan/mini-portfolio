@@ -128,4 +128,11 @@ export const reads: Read[] = [
     author: "mikymoothrowa",
     category: "Engineering",
   },
+  {
+    id: 19,
+    title: "Systems Thinking : A quick introduction for software engineers",
+    url: "https://medium.com/@scott-altham/systems-thinking-a-quick-introduction-for-software-engineers-c99976246729",
+    author: "Scott Altam",
+    category: "Engineering",
+  },
 ];
