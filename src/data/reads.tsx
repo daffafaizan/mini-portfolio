@@ -121,4 +121,11 @@ export const reads: Read[] = [
     author: "Sam Altman",
     category: "Engineering",
   },
+  {
+    id: 18,
+    title: "What to do about ‘Good at programming Bad at Leetcode’",
+    url: "https://news.ycombinator.com/item?id=31450713",
+    author: "mikymoothrowa",
+    category: "Engineering",
+  },
 ];
