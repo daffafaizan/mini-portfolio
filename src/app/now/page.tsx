@@ -24,7 +24,7 @@ export default function Now() {
       </div>
       <span>
         Last updated on{" "}
-        <span className="font-semibold">Friday, 10 October 2025</span>.
+        <span className="font-semibold">Sunday, 26 October 2025</span>.
       </span>
     </div>
   );
