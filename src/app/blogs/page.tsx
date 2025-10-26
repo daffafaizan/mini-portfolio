@@ -1,5 +1,6 @@
 import BlogsMap from "@/components/custom/blogs";
 import Navbar from "@/components/navbar";
+import { PORTFOLIO_V2_LINK } from "@/data/links";
 
 export default function Blogs() {
   return (
@@ -10,6 +11,18 @@ export default function Blogs() {
         <span className="font-semibold text-3xl">Blogs</span>
         <BlogsMap />
       </div>
+      <span className="text-sm max-w-[490px] pb-16">
+        To view the blogs with comments, or if you&apos;d like to leave a
+        comment yourself, visit{" "}
+        <a
+          href={`${PORTFOLIO_V2_LINK}/blog`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          here
+        </a>{" "}
+      </span>
     </div>
   );
 }
