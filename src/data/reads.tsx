@@ -107,4 +107,18 @@ export const reads: Read[] = [
     author: "DrDoritosMD @ RoyalRoad",
     category: "Fiction",
   },
+  {
+    id: 16,
+    title: "The Importance of Mentorship for Software Engineers",
+    url: "https://medium.com/@charliekroon/the-importance-of-mentorship-for-software-engineers-2c43a0ba86bd",
+    author: "Charlie Kroon",
+    category: "Engineering",
+  },
+  {
+    id: 17,
+    title: "What I Wish Someone Had Told Me",
+    url: "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+    author: "Sam Altman",
+    category: "Engineering",
+  },
 ];

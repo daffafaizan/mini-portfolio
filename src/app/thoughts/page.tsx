@@ -19,6 +19,7 @@ export default function Thoughts() {
             me forward with determination and a constant desire to improve.
           </span>
           <ul className="list-inside list-decimal">
+            <li>Becoming a competent software engineer.</li>
             <li>Increasing academic competence in Indonesia.</li>
             <li>Revolutionizing Indonesian education.</li>
             <li>Making a scientific breakthrough.</li>
@@ -38,14 +39,19 @@ export default function Thoughts() {
             <li>How do you transform a nation?</li>
             <li>Is time travel possible?</li>
             <li>How do you become a good software engineer?</li>
-            <li>How do you find love?</li>
-            <li>How do you get rid of chicken legs? XD</li>
+            <li>How do you find love? (ts corny asl bruh 🥀)</li>
           </ul>
         </div>
         <span>
           If you share my vision, have answers, want to share resources, or if
-          you&apos;re interested ;&#41; please shoot me an email at daffamfzn at
-          gmail dot com.
+          you&apos;re interested ;&#41; please shoot me an email at{" "}
+          <a
+            className="hover:underline text-[#0000EE]"
+            href="mailto:daffamfzn@gmail.com"
+          >
+            daffamfzn@gmail.com
+          </a>
+          .
         </span>
       </div>
     </div>

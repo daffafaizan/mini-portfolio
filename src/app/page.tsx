@@ -13,42 +13,10 @@ export default function Home() {
       </span>
       <div className="max-w-[490px] flex flex-col gap-4 pb-12">
         <span>
-          Currently a{" "}
-          <a
-            href="https://cs.ui.ac.id"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            CS
-          </a>{" "}
-          undergrad at the{" "}
-          <a
-            href="https://www.ui.ac.id/en/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            University of Indonesia
-          </a>{" "}
-          and a software engineer at{" "}
-          <a
-            href="https://clevero.co"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            Clevero
-          </a>
-          .
-        </span>
-        <span>
           I have 2+ years of experience building products + projects, mostly
           solutions to problems that I encounter in my daily life. I&apos;m
           interested in distributed computing, software engineering,
-          cryptography, and blockchain technology. I&apos;m currently doing my
-          thesis, focusing on Zero-Knowledge Proof protocols and it&apos;s
-          implementation on data exchange marketplaces.
+          cryptography, and blockchain technology.
         </span>
         <span>
           Connect with me on{" "}
