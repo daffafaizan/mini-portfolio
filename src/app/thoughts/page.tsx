@@ -39,7 +39,6 @@ export default function Thoughts() {
             <li>How do you transform a nation?</li>
             <li>Is time travel possible?</li>
             <li>How do you become a good software engineer?</li>
-            <li>How do you find love? (ts corny asl bruh 🥀)</li>
           </ul>
         </div>
         <span>
