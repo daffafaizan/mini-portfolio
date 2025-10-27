@@ -52,10 +52,10 @@ export default function Now() {
           <Link href={`/reads`} className="hover:underline text-[#0000EE]">
             here
           </Link>
-          . I grouped building and studying together because most of what I
-          learn revolves around programming, and I’ve always believed in
-          learning by doing. That&apos;s why I&apos;m always working on side
-          projects.
+          (and infer the tech I&apos;m currently learning too!). I grouped
+          building and studying together because most of what I learn revolves
+          around programming, and I’ve always believed in learning by doing.
+          That&apos;s why I&apos;m always working on side projects.
         </span>
       </div>
       <span className="text-sm">

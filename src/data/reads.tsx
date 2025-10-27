@@ -135,4 +135,11 @@ export const reads: Read[] = [
     author: "Scott Altam",
     category: "Engineering",
   },
+  {
+    id: 20,
+    title: "Beej's Guide to C Programming",
+    url: "https://beej.us/guide/bgc/html/#cb108-11",
+    author: "Brian Hall",
+    category: "Engineering",
+  },
 ];
