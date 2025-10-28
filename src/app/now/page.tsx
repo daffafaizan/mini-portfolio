@@ -46,9 +46,9 @@ export default function Now() {
         <span>
           In my free time, I game, read, and build/study. I&apos;m a casual
           gamer who enjoys FPS and strategy games. You can find me on CS2,
-          VALORANT, Age of Empires III, Stellaris, and Master of Orion. I mainly
-          read sci-fi stories and tech articles: you can check out some of my
-          favorites{" "}
+          VALORANT, Age of Empires III, the Mass Effect series, Stellaris, and
+          Master of Orion. I mainly read sci-fi stories and tech articles: you
+          can check out some of my favorites{" "}
           <Link href={`/reads`} className="hover:underline text-[#0000EE]">
             here
           </Link>
