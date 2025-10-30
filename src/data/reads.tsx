@@ -137,9 +137,16 @@ export const reads: Read[] = [
   },
   {
     id: 20,
-    title: "Beej's Guide to C Programming",
+    title: "Beej's Guide to C Programmig",
     url: "https://beej.us/guide/bgc/html/#cb108-11",
     author: "Brian Hall",
+    category: "Engineering",
+  },
+  {
+    id: 21,
+    title: "I Gave 2 Hours Daily to DSA & System Design, Best Decision Ever",
+    url: "https://medium.com/@himanshusingour7/i-gave-2-hours-daily-to-dsa-system-design-best-decision-ever-af6c0ae6a938",
+    author: "Himanshu Singour",
     category: "Engineering",
   },
 ];
