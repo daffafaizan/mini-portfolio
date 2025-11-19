@@ -149,4 +149,11 @@ export const reads: Read[] = [
     author: "Himanshu Singour",
     category: "Engineering",
   },
+  {
+    id: 22,
+    title: "when you're choosing a life partner, think beyond romance",
+    url: "https://goranshbharal.substack.com/p/when-youre-choosing-a-life-partner",
+    author: "@goranshbharal",
+    category: "Life",
+  },
 ];
