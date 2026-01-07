@@ -156,4 +156,25 @@ export const reads: Read[] = [
     author: "@goranshbharal",
     category: "Life",
   },
+  {
+    id: 23,
+    title: "Why you need to use DTO's in your REST API",
+    url: "https://medium.com/@enocklubowa/why-you-need-to-use-dtos-in-your-rest-api-d9d6d7be5450",
+    author: "Enock Lubowa",
+    category: "Engineering",
+  },
+  {
+    id: 24,
+    title: "Introducing RealWorld 🙌",
+    url: "https://medium.com/@ericsimons/introducing-realworld-6016654d36b5",
+    author: "Eric Simons",
+    category: "Engineering",
+  },
+  {
+    id: 25,
+    title: "Software Developer Tooling: Then and Now",
+    url: "https://dasein42.medium.com/tooling-then-and-now-d338d70e434",
+    author: "Andrew Glynn",
+    category: "Engineering",
+  },
 ];

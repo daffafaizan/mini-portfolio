@@ -50,7 +50,7 @@ export default function Now() {
           Master of Orion, and some occasional Minecraft. I mainly read sci-fi
           stories and tech articles: you can check out some of my favorites{" "}
           <Link href={`/reads`} className="hover:underline text-[#0000EE]">
-            here
+            here{" "}
           </Link>
           (and infer the tech I&apos;m currently learning too!). I grouped
           building and studying together because most of what I learn revolves
@@ -60,7 +60,7 @@ export default function Now() {
       </div>
       <span className="text-sm">
         Last updated on{" "}
-        <span className="font-semibold">Sunday, 26 October 2025</span>.
+        <span className="font-semibold">Wednesday, 7 January 2026</span>.
       </span>
     </div>
   );
