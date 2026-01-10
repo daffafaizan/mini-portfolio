@@ -7,6 +7,8 @@ export const reads: Read[] = [
     url: "http://www.catb.org/~esr/faqs/hacker-howto.html",
     author: "Eric Steven Raymond",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 2,
@@ -14,6 +16,8 @@ export const reads: Read[] = [
     url: "https://norvig.com/21-days.html",
     author: "Peter Norvig",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 3,
@@ -21,6 +25,8 @@ export const reads: Read[] = [
     url: "https://www.reddit.com/r/cscareerquestions/comments/13r1utc/feeling_incompetent_and_its_killing_me/",
     author: "Flaifel7 @ Reddit",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 4,
@@ -28,6 +34,8 @@ export const reads: Read[] = [
     url: "https://www.hongkiat.com/blog/programming-jokes/",
     author: "Thoriq Firdaus",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 5,
@@ -35,6 +43,8 @@ export const reads: Read[] = [
     url: "https://www.joelonsoftware.com/2001/12/25/getting-things-done-when-youre-only-a-grunt/",
     author: "Joel Spolsky",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 6,
@@ -42,6 +52,8 @@ export const reads: Read[] = [
     url: "https://overreacted.io/things-i-dont-know-as-of-2018/",
     author: "Dan Abramov",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 7,
@@ -49,6 +61,8 @@ export const reads: Read[] = [
     url: "https://linear.app/now/why-is-quality-so-rare",
     author: "Karri Saarinen",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 8,
@@ -56,6 +70,8 @@ export const reads: Read[] = [
     url: "https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html",
     author: "Andrei Taranchenko",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 9,
@@ -63,6 +79,8 @@ export const reads: Read[] = [
     url: "https://blog.samaltman.com/successful-people",
     author: "Sam Altman",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 10,
@@ -71,6 +89,8 @@ export const reads: Read[] = [
     url: "https://www.youtube.com/watch?v=suATPK45sjk&t=188s",
     author: "EngX Space @ YouTube",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 11,
@@ -78,6 +98,8 @@ export const reads: Read[] = [
     url: "https://blog.jauhar.dev/blog/2024/06/01/advice-for-junior-software-engineer/",
     author: "Jauhar Arifin",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 12,
@@ -85,6 +107,8 @@ export const reads: Read[] = [
     url: "https://www.reddit.com/r/HFY/comments/yl3xzo/the_new_species/",
     author: "ItsDirector @ Reddit",
     category: "Fiction",
+    favorite: false,
+    quote: "",
   },
   {
     id: 13,
@@ -92,6 +116,8 @@ export const reads: Read[] = [
     url: "https://www.reddit.com/r/HFY/comments/17jf43k/terran_contact_42/",
     author: "VexTrooper @ Reddit",
     category: "Fiction",
+    favorite: false,
+    quote: "",
   },
   {
     id: 14,
@@ -99,6 +125,9 @@ export const reads: Read[] = [
     url: "https://www.reddit.com/r/HFY/comments/12sme7v/we_do/",
     author: "Salishaz @ Reddit",
     category: "Fiction",
+    favorite: true,
+    quote:
+      "Collecting herself and looking around at the crowd of humans, she exclaimed, 'No peoples behave this way for one not of their own.' The Admiral smiled with warmth that belied the primal intensity she was feeling as she said, 'We do.'",
   },
   {
     id: 15,
@@ -106,6 +135,8 @@ export const reads: Read[] = [
     url: "https://www.royalroad.com/fiction/75057/manifest-fantasy",
     author: "DrDoritosMD @ RoyalRoad",
     category: "Fiction",
+    favorite: false,
+    quote: "",
   },
   {
     id: 16,
@@ -113,6 +144,8 @@ export const reads: Read[] = [
     url: "https://medium.com/@charliekroon/the-importance-of-mentorship-for-software-engineers-2c43a0ba86bd",
     author: "Charlie Kroon",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 17,
@@ -120,6 +153,8 @@ export const reads: Read[] = [
     url: "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
     author: "Sam Altman",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 18,
@@ -127,6 +162,8 @@ export const reads: Read[] = [
     url: "https://news.ycombinator.com/item?id=31450713",
     author: "mikymoothrowa",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 19,
@@ -134,6 +171,8 @@ export const reads: Read[] = [
     url: "https://medium.com/@scott-altham/systems-thinking-a-quick-introduction-for-software-engineers-c99976246729",
     author: "Scott Altam",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 20,
@@ -141,6 +180,8 @@ export const reads: Read[] = [
     url: "https://beej.us/guide/bgc/html/#cb108-11",
     author: "Brian Hall",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 21,
@@ -148,6 +189,8 @@ export const reads: Read[] = [
     url: "https://medium.com/@himanshusingour7/i-gave-2-hours-daily-to-dsa-system-design-best-decision-ever-af6c0ae6a938",
     author: "Himanshu Singour",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 22,
@@ -155,6 +198,8 @@ export const reads: Read[] = [
     url: "https://goranshbharal.substack.com/p/when-youre-choosing-a-life-partner",
     author: "@goranshbharal",
     category: "Life",
+    favorite: true,
+    quote: "that’s what love really is: rhythm.",
   },
   {
     id: 23,
@@ -162,6 +207,8 @@ export const reads: Read[] = [
     url: "https://medium.com/@enocklubowa/why-you-need-to-use-dtos-in-your-rest-api-d9d6d7be5450",
     author: "Enock Lubowa",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 24,
@@ -169,6 +216,8 @@ export const reads: Read[] = [
     url: "https://medium.com/@ericsimons/introducing-realworld-6016654d36b5",
     author: "Eric Simons",
     category: "Engineering",
+    favorite: false,
+    quote: "",
   },
   {
     id: 25,
@@ -176,5 +225,44 @@ export const reads: Read[] = [
     url: "https://dasein42.medium.com/tooling-then-and-now-d338d70e434",
     author: "Andrew Glynn",
     category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 26,
+    title:
+      "Tips for Building Your First Production-Ready Frontend Application: A Developer's Guide",
+    url: "https://medium.com/@blaiseshyaka95/tips-for-building-your-first-production-ready-frontend-application-a-developers-guide-d3c836cab687",
+    author: "Blaise Pascal SHYAKA",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 27,
+    title: "Some Thoughts on Microservices Architecture",
+    url: "https://dasein42.medium.com/some-thoughts-on-microservices-architecture-601f744a4b33",
+    author: "Andrew Glynn",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 28,
+    title: "How the Actor Model works by example",
+    url: "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-the-Actor-Model-works-by-example",
+    author: "Bob Reselman",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 29,
+    title: "The Hardest Lessons for Startups to Learn",
+    url: "https://paulgraham.com/startuplessons.html",
+    author: "Paul Graham",
+    category: "Engineering",
+    favorite: true,
+    quote: "...but in software you want to invest in students, not professors.",
   },
 ];

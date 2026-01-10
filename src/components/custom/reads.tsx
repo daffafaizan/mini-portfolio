@@ -1,6 +1,7 @@
 import { categories } from "@/data/read-categories";
 import { reads } from "@/data/reads";
 import { Read } from "@/interfaces/read";
+import ReadItem from "./read-item";
 
 export default async function ReadsMap() {
   const groupedByCategories = new Map<string, Read[]>();
@@ -23,17 +24,7 @@ export default async function ReadsMap() {
           {reads.length > 0 ? (
             <ul className="list-inside list-disc">
               {reads.map((read) => (
-                <li key={read.id} className="grid grid-cols-2 mb-2 gap-8">
-                  <a
-                    target="_blank"
-                    href={read.url}
-                    rel="noopener noreferrer"
-                    className="hover:underline text-[#0000EE]"
-                  >
-                    {read.title}
-                  </a>
-                  <span>{read.author}</span>
-                </li>
+                <ReadItem key={read.id} read={read} />
               ))}
             </ul>
           ) : (

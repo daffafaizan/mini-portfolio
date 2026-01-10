@@ -4,4 +4,6 @@ export interface Read {
   url: string;
   category: string;
   author: string;
+  favorite: boolean;
+  quote: string;
 }
