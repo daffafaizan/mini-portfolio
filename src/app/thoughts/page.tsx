@@ -42,8 +42,8 @@ export default function Thoughts() {
           </ul>
         </div>
         <span>
-          If you share my vision, have answers, want to share resources, or if
-          you&apos;re interested ;&#41; please shoot me an email at{" "}
+          If you share my vision, have answers, or want to share resources,
+          please shoot me an email at{" "}
           <a
             className="hover:underline text-[#0000EE]"
             href="mailto:daffamfzn@gmail.com"
