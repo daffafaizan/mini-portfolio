@@ -265,4 +265,22 @@ export const reads: Read[] = [
     favorite: true,
     quote: "...but in software you want to invest in students, not professors.",
   },
+  {
+    id: 30,
+    title: "Storing User Settings in a Relational Database",
+    url: "https://culttt.com/2015/02/02/storing-user-settings-relational-database#:~:text=Single%20Row,text%20column%20in%20the%20database.",
+    author: "Philip Brown",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 31,
+    title: "Time and Space Complexity: A Beginner’s Guide",
+    url: "https://medium.com/@pnandhiniofficial/time-and-space-complexity-a-beginners-guide-88d617d29d01",
+    author: "Nandhini P",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
 ];
