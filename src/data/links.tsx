@@ -15,6 +15,7 @@ const EUREQA_LINK = "https://eureqa.app";
 const QUORUM_AI_LINK = "https://quorum-ai.com";
 const FOLIO_LINK =
   "https://github.com/SeismicSystems/prototypes/tree/main/folio";
+const NUKU_LINK = "https://studywithnuku.com";
 
 // Socials
 const GITHUB_LINK = "https://github.com/daffafaizan";
@@ -41,4 +42,5 @@ export {
   EUREQA_LINK,
   QUORUM_AI_LINK,
   FOLIO_LINK,
+  NUKU_LINK,
 };

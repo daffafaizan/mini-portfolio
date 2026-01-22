@@ -15,6 +15,7 @@ import {
   EUREQA_LINK,
   QUORUM_AI_LINK,
   FOLIO_LINK,
+  NUKU_LINK,
 } from "@/data/links";
 
 export const projects: Project[] = [
@@ -182,5 +183,14 @@ export const projects: Project[] = [
     link: EUREQA_LINK,
     status: "HIATUS",
     technologies: ["Go", "NextJS"],
+  },
+  {
+    id: 17,
+    code: "nuku",
+    title: "Nuku",
+    description: "A gamified study platform, think Strava for studying",
+    link: NUKU_LINK,
+    status: "ONGOING",
+    technologies: [],
   },
 ];
