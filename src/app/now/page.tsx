@@ -16,7 +16,7 @@ export default function Now() {
             rel="noopener noreferrer"
             className="underline"
           >
-            CS
+            computer science
           </a>{" "}
           undergrad at the{" "}
           <a
@@ -29,12 +29,12 @@ export default function Now() {
           </a>{" "}
           and currently working as a software engineer at{" "}
           <a
-            href="https://clevero.co"
+            href="https://www.gotocompany.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline"
           >
-            Clevero
+            GoTo
           </a>
           .
         </span>
@@ -44,11 +44,21 @@ export default function Now() {
           and it&apos;s implementation on data exchange marketplaces.
         </span>
         <span>
-          In my free time, I game, read, and build/study. I&apos;m a casual
-          gamer who enjoys FPS and strategy games. You can find me on CS2,
-          VALORANT, Age of Empires III, the Mass Effect series, Stellaris,
-          Master of Orion, and some occasional Minecraft. I mainly read sci-fi
-          stories and tech articles: you can check out some of my favorites{" "}
+          In my free time, I game, read, and build/study. I&apos;m currently
+          building{" "}
+          <a
+            href="https://www.studywithnuku.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Nuku
+          </a>
+          ! I&apos;m a casual gamer who enjoys FPS and strategy games. You can
+          find me on CS2, VALORANT, Age of Empires III, the Mass Effect series,
+          Stellaris, Master of Orion, and some occasional Minecraft. I mainly
+          read sci-fi stories and tech articles: you can check out some of my
+          favorites{" "}
           <Link href={`/reads`} className="hover:underline text-[#0000EE]">
             here
           </Link>{" "}
@@ -60,7 +70,7 @@ export default function Now() {
       </div>
       <span className="text-sm">
         Last updated on{" "}
-        <span className="font-semibold">Saturday, 10 January 2026</span>.
+        <span className="font-semibold">Sunday, 12 April 2026</span>.
       </span>
     </div>
   );

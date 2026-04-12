@@ -14,7 +14,7 @@ export default async function BlogsMap() {
 
   const sortedPosts = data.sort(
     (a: Blog, b: Blog) =>
-      new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
   );
 
   for (const tag of tags) {
