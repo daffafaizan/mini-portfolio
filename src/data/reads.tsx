@@ -283,4 +283,15 @@ export const reads: Read[] = [
     favorite: false,
     quote: "",
   },
+  {
+    id: 32,
+    title:
+      "The Dunning-Kruger Effect: Why Junior Devs Think They Know Everything And Seniors Think They Know Nothing",
+    url: "https://sanjewa.com/blogs/dunning-kruger-effect-software-developers/",
+    author: "Sanjeewa Rupasinghe",
+    category: "Engineering",
+    favorite: true,
+    quote:
+      "...incompetence prevents people from recognizing their own incompetence.",
+  },
 ];
