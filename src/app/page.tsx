@@ -15,8 +15,7 @@ export default function Home() {
         <span>
           I have 2+ years of experience building products + projects, mostly
           solutions to problems that I encounter in my daily life. I&apos;m
-          interested in distributed computing, software engineering,
-          cryptography, and blockchain technology.
+          interested in distributed systems and software engineering,
         </span>
         <span>
           Connect with me on{" "}

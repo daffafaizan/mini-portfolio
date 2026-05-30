@@ -19,7 +19,7 @@ export default function Thoughts() {
             me forward with determination and a constant desire to improve.
           </span>
           <ul className="list-inside list-decimal">
-            <li>Becoming a competent software engineer.</li>
+            <li>Becoming a software engineer who outputs quality work.</li>
             <li>Increasing academic competence in Indonesia.</li>
             <li>Revolutionizing Indonesian education.</li>
             <li>Making a scientific breakthrough.</li>
@@ -38,7 +38,10 @@ export default function Thoughts() {
           <ul className="list-inside list-decimal">
             <li>How do you transform a nation?</li>
             <li>Is time travel possible?</li>
-            <li>How do you become a good software engineer?</li>
+            <li>
+              How can you convince yourself that you&apos;re a good software
+              engineer?
+            </li>
           </ul>
         </div>
         <span>
