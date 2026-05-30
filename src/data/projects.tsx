@@ -190,7 +190,7 @@ export const projects: Project[] = [
     title: "Nuku",
     description: "A gamified study platform, think Strava for studying",
     link: NUKU_LINK,
-    status: "FINISHED",
+    status: "HIATUS",
     technologies: [],
   },
 ];
