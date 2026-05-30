@@ -333,4 +333,22 @@ export const reads: Read[] = [
     quote:
       "As software engineers, we should measure our contribution not in lines of code generated, but in reliable, well-designed systems that are easy to change and a pleasure to use.",
   },
+  {
+    id: 37,
+    title: "High-Quality Software Engineering",
+    url: "https://lurklurk.org/hqse.pdf",
+    author: "David Drysdale",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 38,
+    title: "On becoming competitive when joining a new company",
+    url: "https://ludwigabap.bearblog.dev/on-becoming-competitive-when-joining-a-new-company/",
+    author: "Ludwig",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
 ];
