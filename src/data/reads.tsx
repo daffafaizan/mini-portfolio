@@ -294,4 +294,43 @@ export const reads: Read[] = [
     quote:
       "...incompetence prevents people from recognizing their own incompetence.",
   },
+  {
+    id: 33,
+    title: "Software Engineering Discipline and Posture",
+    url: "https://blainsmith.com/articles/software-engineering-discipline-and-posture/",
+    author: "Blain Smith",
+    category: "Engineering",
+    favorite: true,
+    quote:
+      "Engineering isn't just about shipping features. It's about shaping the experience of others. Our colleagues, our future selves, and those who will maintain the code long after we’re gone will appreciate it.",
+  },
+  {
+    id: 34,
+    title: "Why is quality so rare?",
+    url: "https://linear.app/now/why-is-quality-so-rare",
+    author: "Karri Saarinen",
+    category: "Engineering",
+    favorite: true,
+    quote:
+      "This is what craft is about — the deliberate attention put into making something excellent, not because someone is checking, but because it matters to the maker.",
+  },
+  {
+    id: 35,
+    title: "How to Stop Endless Discussions",
+    url: "https://candost.blog/how-to-stop-endless-discussions/",
+    author: "Candost",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
+  {
+    id: 36,
+    title: "The Case for Software Craftsmanship in the Era of Vibes",
+    url: "https://zed.dev/blog/software-craftsmanship-in-the-era-of-vibes",
+    author: "Nathan Sobo",
+    category: "Engineering",
+    favorite: true,
+    quote:
+      "As software engineers, we should measure our contribution not in lines of code generated, but in reliable, well-designed systems that are easy to change and a pleasure to use.",
+  },
 ];
