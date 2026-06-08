@@ -351,4 +351,14 @@ export const reads: Read[] = [
     favorite: false,
     quote: "",
   },
+  {
+    id: 39,
+    title:
+      "2x Performance, $300k Savings: A Case Study in Rewriting a Critical Service in Rust",
+    url: "https://wxiaoyun.com/blog/rust-rewrite-case-study/",
+    author: "Xiaoyun Wu",
+    category: "Engineering",
+    favorite: false,
+    quote: "",
+  },
 ];
