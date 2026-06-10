@@ -361,4 +361,14 @@ export const reads: Read[] = [
     favorite: false,
     quote: "",
   },
+  {
+    id: 40,
+    title: "rabbit hole learning",
+    url: "https://seated.ro/posts/rabbit-hole-learning.html",
+    author: "seatedro",
+    category: "Engineering",
+    favorite: true,
+    quote:
+      "Pretty much the best way to learn that I have found is to refrain from suprressing your innate curosity and let it go wild.",
+  },
 ];
